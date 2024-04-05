@@ -1,0 +1,1 @@
+globalThis.Azion=globalThis.Azion||{};globalThis.Azion.env={};globalThis.Azion.env.get=e=>ENV_VARS_CONTEXT.get(e);(async function(){try{addEventListener("firewall",e=>{let t=e.request.metadata.remote_addr;console.log(t)})}catch(e){return new Response(e.message||e.toString(),{status:500})}})();

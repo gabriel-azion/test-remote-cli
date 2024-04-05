@@ -1,0 +1,6 @@
+preset=javascript
+builder=esbuild
+entry=./main.js
+mode=compute
+useNodePolyfills=false
+useOwnWorker=true
